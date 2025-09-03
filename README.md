@@ -12,7 +12,7 @@
 #### 1. Clonar o Repositório
 ```bash
 git clone https://github.com/marciomdrs2002/facil-tecnologia-contratos.git
-cd contratos
+cd facil-tecnlogia-contratos
 ```
 
 #### 2. Instalar Dependências
@@ -102,13 +102,13 @@ O sistema vem com dados de demonstração que incluem:
 
 ### Executar Relatório Completo
 ```bash
-# 1. Listar contratos no terminal
+# 1. Listar contratos e gerar arquivo PDF
 php artisan contratos:listar
 
 # 2. Relatório agrupado
 php artisan contratos:agrupado
 
-# 2. Relatório agrupado em arquivo
+# 2. Relatório agrupado em arquivo TXT
 php artisan contratos:agrupado --arquivo
 ```
 
